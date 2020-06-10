@@ -13,5 +13,8 @@
     "jquery": "^3.1.1",
     "skeleton-css": "^2.0.4",
     "socket.io": "^1.7.1"
+  },
+  "engines": {
+    "node": "12.16.3"
   }
 }
