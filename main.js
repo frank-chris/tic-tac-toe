@@ -204,7 +204,12 @@ var Game = function(roomId){
     location.reload();
   }
 
-  var socket = io.connect('http://localhost:5000'),
+  let site = 'https://nameless-dusk-44761.herokuapp.com/';
+  if (site == null || site == "") {
+    site = 'http://localhost:8000';
+  }
+
+  var socket = io.connect(site),
     player,
     game;
 
