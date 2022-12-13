@@ -9,7 +9,7 @@
   "author": "Chris Francis",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "jquery": "^3.1.1",
     "skeleton-css": "^2.0.4",
     "socket.io": "^1.7.1"
